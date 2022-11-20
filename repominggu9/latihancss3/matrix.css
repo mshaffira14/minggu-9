@@ -1,0 +1,37 @@
+body {
+    background: cornflowerblue;
+    font-family: cursive;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: aquamarine;
+}
+
+.ketengah {
+    margin: 10px auto;
+    width: 1200px;
+}
+
+.kotak1 {
+    background: dodgerblue;
+    padding: 60px;
+    float: left;
+    margin: 50px;
+    width: 100px;
+    height: 200px;
+}
+
+.kotak2 {
+    background: dodgerblue;
+    padding: 20px;
+    float: left;
+    margin: 50px;
+    width: 100px;
+    height: 200px;
+    matrix(scaleX (), skewY(), skewX(), scaleY(), translateX(), translateY()) -ms-transform: matrix(1, 2, -1, 1, 5, 4);
+    -webkit-transform: matrix(1, 2, -1, 1, 5, 4);
+    transform: matrix(1, 2, -1, 1, 5, 4);
+
+}

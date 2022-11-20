@@ -1,0 +1,39 @@
+body {
+    background: lightslategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+div {
+    margin: 10px;
+}
+
+.kotak1 {
+    background: lightgoldenrodyellow;
+    width: 100px;
+    height: 100px;
+    transition: width 1s;
+    -webkit-transition: width 1s;
+}
+
+.kotak1:hover {
+    width: 300px;
+}
+
+.kotak2 {
+    background: lightgoldenrodyellow;
+    width: 100px;
+    height: 100px;
+    transition: width 1s, height 2s;
+    -webkit-transition: width 1s, height 2s
+}
+
+.kotak2:hover {
+    width: 300px;
+    height: 300px;
+
+}

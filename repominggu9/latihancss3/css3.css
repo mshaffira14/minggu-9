@@ -1,0 +1,40 @@
+body {
+    background: darkgrey;
+    font-family: monospace;
+    text-align: center;
+}
+
+h1 {
+    color: dodgerblue;
+}
+
+.tengah {
+    margin: 10px auto;
+    width: 1200px;
+}
+
+.tulisan1 {
+    text-shadow: 15px 10px 5px deepskyblue;
+}
+
+.tulisan2 {
+    text-shadow: 0px 0px 20px deepskyblue;
+}
+
+.kotak1 {
+    background: white;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    float: left;
+    box-shadow: 20px 20px 40px 10px blue;
+}
+
+.kotak2 {
+    background: white;
+    width: 300px;
+    margin: 20px;
+    float: left;
+    height: 300px;
+    box-shadow: 0px 0px 10px 10px lightskyblue;
+}

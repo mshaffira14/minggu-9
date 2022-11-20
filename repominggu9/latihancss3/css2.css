@@ -1,0 +1,50 @@
+body {
+    background: darkgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: grey;
+}
+
+.tengah {
+    margin: 10px auto;
+    width: 1200px;
+}
+
+.kotak {
+    background: black;
+    width: 500px;
+    float: left;
+    height: 250px;
+    margin: 30px;
+}
+
+.gradient1 {
+    background: linear-gradient(blue, skyblue);
+    background: -webkit-linear-gradient(blue, skyblue);
+    background: -o-linear-gradient(blue, skyblue);
+    background: -moz-linear-gradient(blue, skyblue);
+}
+
+.gradient2 {
+    background: linear-gradient(to right, blue, deepskyblue, skyblue);
+    background: -webkit-linear-gradient(left, blue, deepskyblue, skyblue);
+    background: -o-linear-gradient(right, blue, deepskyblue, skyblue);
+    background: -moz-linear-gradient(right, blue, deepskyblue, skyblue);
+}
+
+.gradient3 {
+    background: radial-gradient(blue, skyblue);
+    background: -webkit-radial-gradient(blue, skyblue);
+    background: -o-radial-gradient(blue, skyblue);
+    background: -moz-radial-gradient(blue, skyblue);
+}
+
+.gradient4 {
+    background: radial-gradient(circle, blue, skyblue);
+    background: -webkit-radial-gradient(circle, blue, skyblue);
+    background: -o-radial-gradient(circle, blue, skyblue);
+    background: -moz-radial-gradient(circle, blue, skyblue);
+}
